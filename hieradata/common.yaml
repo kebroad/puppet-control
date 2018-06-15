@@ -5,3 +5,13 @@ profile::base::ntp_servers:
  - 2.ubuntu.pool.ntp.org
  - 3.ubuntu.pool.ntp.org
 profile::apache::default_vhost: false
+profile::apache::apache_vhost_servers: {
+  'kebroad3.mylabserver.com':{
+    port: 80,
+    docroot: 'var/www/kebroad3'
+  }
+  'kebroad3b.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/kebroad3b'
+  }
+}
