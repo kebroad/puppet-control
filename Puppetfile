@@ -37,3 +37,7 @@ mod 'profile',
   :git => 'https://github.com/kebroad/puppet-profile.git',
   :ref => 'master'
 
+mod 'nginx',
+  :git => 'https://github.com/kebroad/puppet-nginx.git',
+  :ref => 'master'
+
