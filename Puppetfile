@@ -31,9 +31,9 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/kebroad/puppet-role.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'profile',
   :git => 'https://github.com/kebroad/puppet-profile.git',
-  :ref => 'development'
+  :ref => 'master'
 
