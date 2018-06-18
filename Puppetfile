@@ -28,14 +28,14 @@ mod 'ssh',
 mod 'ntp',
   :git => 'https://github.com/kebroad/puppet-ntp.git',
   :ref => 'master'
-
-mod 'role',
-  :git => 'https://github.com/kebroad/puppet-role.git',
-  :ref => 'master'
-
-mod 'profile',
-  :git => 'https://github.com/kebroad/puppet-profile.git',
-  :ref => 'master'
+#
+#mod 'role',
+#  :git => 'https://github.com/kebroad/puppet-role.git',
+#  :ref => 'master'
+#
+#mod 'profile',
+#  :git => 'https://github.com/kebroad/puppet-profile.git',
+#  :ref => 'master'
 
 mod 'nginx',
   :git => 'https://github.com/kebroad/puppet-nginx.git',
